@@ -8,16 +8,17 @@ set rtp+=/home/markyoon/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " Let Vundle manage Vundle
-Plugin 'VundleVim/Vundle.vim'           " Vim plugin manager
-Plugin 'scrooloose/nerdtree'            " File tree explorer
-Plugin 'scrooloose/syntastic'           " Syntax checking
-Plugin 'tpope/vim-fugitive'             " Git in Vim
-Plugin 'vim-airline/vim-airline'        " Better Vim status bar
-Plugin 'vim-airline/vim-airline-themes' " Vim Airline themes
-Plugin 'airblade/vim-gitgutter'         " Git diff display in the sidebar
-Plugin 'Yggdroot/indentLine'            " Show line indent visualization
-Plugin 'flazz/vim-colorschemes'         " Include all vim colorschemes
-Plugin 'ap/vim-css-color'               " Display colors in CSS files
+Plugin 'VundleVim/Vundle.vim'             " Vim plugin manager
+Plugin 'scrooloose/nerdtree'              " File tree explorer
+Plugin 'scrooloose/syntastic'             " Syntax checking
+Plugin 'tpope/vim-fugitive'               " Git in Vim
+Plugin 'vim-airline/vim-airline'          " Better Vim status bar
+Plugin 'vim-airline/vim-airline-themes'   " Vim Airline themes
+Plugin 'airblade/vim-gitgutter'           " Git diff display in the sidebar
+Plugin 'Yggdroot/indentLine'              " Show line indent visualization
+Plugin 'flazz/vim-colorschemes'           " Include all vim colorschemes
+Plugin 'ap/vim-css-color'                 " Display colors in CSS files
+Plugin 'altercation/vim-colors-solarized' "Solarized
 
 " Airline settings
 let g:airline_theme='bubblegum'         " Set Airline color scheme
