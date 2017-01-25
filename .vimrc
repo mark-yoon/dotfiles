@@ -17,6 +17,7 @@ Plugin 'vim-airline/vim-airline-themes' " Vim Airline themes
 Plugin 'airblade/vim-gitgutter'         " Git diff display in the sidebar
 Plugin 'Yggdroot/indentLine'            " Show line indent visualization
 Plugin 'flazz/vim-colorschemes'         " Include all vim colorschemes
+Plugin 'ap/vim-css-color'               " Display colors in CSS files
 
 " Airline settings
 let g:airline_theme='bubblegum'         " Set Airline color scheme
